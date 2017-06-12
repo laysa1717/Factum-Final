@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    tools:context="br.com.factum.app.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@color/azul_fundo"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            />
+
+
+
+
+        <LinearLayout
+            android:id="@+id/content_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:background="@color/azul_fundo"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="170dp"
+                android:foregroundGravity="center"
+                android:orientation="vertical"
+                android:layout_marginLeft="25dp"
+                android:padding="11dp">
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_weight="8"
+                    android:orientation="vertical">
+
+
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/pendente"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:textColor="@color/preto"
+                        android:textSize="20dp"
+                        android:text="Estudo do Dia"
+                        android:fontFamily="casual"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="180dp"
+                android:foregroundGravity="center"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:padding="10dp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/estudoo"
+                        android:id="@+id/imageView2" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/preto"
+                        android:gravity="center"
+                        android:text="Conteúdos Pendentes"
+                        android:fontFamily="casual"
+                        />
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azul_fundo"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginRight="10dp"
+                android:textSize="13dp"
+                android:gravity="right"
+                android:textColor="@color/colorPrimary"
+                android:text="Videos Aulas"
+                android:fontFamily="arial"
+                />
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="201dp"
+                android:id="@+id/view_flipper">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="207dp"
+                    android:src="@drawable/img3" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="218dp"
+                    android:src="@drawable/img2" />
+
+            </ViewFlipper>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+

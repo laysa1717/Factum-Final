@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_estudo"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Estudo do dia" />
+        <item
+            android:id="@+id/nav_simulado"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="Simulados" />
+        <item
+            android:id="@+id/nav_cont"
+            android:icon="@drawable/ic_assignment_late_black_24dp"
+            android:title="Conteúdos Pendentes" />
+        <item
+            android:id="@+id/nav_mat"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="Material Didáticos" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_movie_black_24dp"
+            android:title="Videos Aulas" />
+    </group>
+
+    <item android:title="Sobre"
+        android:id="@+id/nav_com">
+        <menu>
+            <item android:title="DESENVOLVIDO POR:"/>
+            <item android:title="Laysa Santana"/>
+            <item android:title="Marcos Ricardo"/>
+            <item android:title="Matheus Frota"/>
+            <item android:title="Paulo Ferreira"/>
+        </menu>
+    </item>
+
+</menu>

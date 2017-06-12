@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A52A2A</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#8B0000</color>
+    <color name="branco">#fff</color>
+    <color name="preto">#000</color>
+    <color name="cinza">#A9A9A9</color>
+    <color name="testeCor">#A52A2A</color>
+    <color name="cinza2">#666</color>
+    <color name="verde">#41b93b</color>
+    <color name="vermelho">#ea1e1e</color>
+    <color name="azul_fundo">#2F4F4F</color>
+    <color name="azul_fundo_principal">#fff</color>
+</resources>

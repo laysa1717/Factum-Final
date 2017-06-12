@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FACTUM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
+    <string name="title_activity_simulados">Simulados</string>
+    <string name="title_activity_material">Material Didático</string>
+    <string name="title_activity_novo_material">Adicionar Material</string>
+    <string name="title_activity_escolher_simulado">Simulados</string>
+    <string name="title_activity_resultado">Simulados</string>
+    <string name="title_activity_questoes">Simulados</string>
+    <string name="title_activity_principal">Factum</string>
+    <string name="title_activity_detalhes_material"></string>
+    <string name="title_activity_editar_material">Editar</string>
+    <string name="title_activity_estudo">Estudo Do Dia</string>
+    <string name="title_activity_cadastro_estudo">Novo Estudo</string>
+    <string name="title_activity_detalhes_estudo"></string>
+    <string name="title_activity_editar_estudo">Editar</string>
+    <string name="title_activity_pedentes">PedentesActivity</string>
+    <string name="title_activity_pendentes"></string>
+</resources>
